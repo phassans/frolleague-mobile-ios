@@ -101,7 +101,7 @@ class LoginTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.title = serverURL?.host
+        navigationItem.title = "FROLLEAGUE"//serverURL?.host
         navigationItem.rightBarButtonItem?.accessibilityLabel = VOLocalizedString("auth.more.label")
 
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
